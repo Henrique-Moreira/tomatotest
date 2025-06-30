@@ -10,13 +10,13 @@ import os
 class CustomConfig(datasets.BuilderConfig):
     def __init__(self, **kwargs):
         super(CustomConfig, self).__init__(**kwargs)
-        self.dataset_type = kwargs.pop("name", "all")
-        self.local_data_dir = kwargs.pop("local_data_dir", None) # Adicione esta linha
-        self.local_train_txt = kwargs.pop("local_train_txt", None) # Adicione esta linha
-        self.local_val_txt = kwargs.pop("local_val_txt", None) # Adicione esta linha
+        self.dataset_types = kwargs.pop("name", "all")
+        self.local_data_dirs = kwargs.pop("local_data_dir", None) # Adicione esta linha
+        self.local_train_txts = kwargs.pop("local_train_txt", None) # Adicione esta linha
+        self.local_val_txts = kwargs.pop("local_val_txt", None) # Adicione esta linha
 _metadata_urls = {
-    "train":"https://huggingface.co/datasets/XingjianLi/tomatotest/resolve/main/train.txt",
-    "val":"https://huggingface.co/datasets/XingjianLi/tomatotest/resolve/main/val.txt"
+    "trains":"https://huggingface.co/datasets/XingjianLi/tomatotest/resolve/main/train.txt",
+    "vals":"https://huggingface.co/datasets/XingjianLi/tomatotest/resolve/main/val.txt"
 }
 
 # ADICIONE ESTE BLOCO NO SEU tomatotest.py, LOGO ABAIXO DE _metadata_urls
