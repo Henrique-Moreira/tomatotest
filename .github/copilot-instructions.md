@@ -1,0 +1,1 @@
+Qualquer nomeclatura, seja de variáveis, funções ou classes, deve ser escrita em português no formato PascalCase.
