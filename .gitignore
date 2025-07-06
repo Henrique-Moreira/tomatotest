@@ -1,5 +1,5 @@
-*/data
-*/general
+tomatotest/data/
+general/
 *.h5
 *.png
 *.pth
