@@ -125,8 +125,6 @@ A **segmentação semântica** foi escolhida porque:
 │   ├── data/                              # Dados brutos
 │   ├── processed_data/                    # Dados processados
 │   └── processed_data_256/                # Dados redimensionados
-├── general/                               # Documentação
-│   └── PGC201 -IEE CONFERENCE ENGLISH.txt # Artigo científico
 └── ARTIGO BASE - High‐Throughput Robotic... # Artigo de referência
 ```
 
