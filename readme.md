@@ -13,6 +13,7 @@ O objetivo principal é determinar qual arquitetura de deep learning é mais efi
 ### 1. Escolha do Dataset
 - **Dataset**: `tomatotest` - Dataset público disponibilizado por He et al. (2024)
 - **Fonte**: Coletado no Mountain Horticultural Crops Research and Extension Center, NC, EUA
+- **Disponível em**: [https://huggingface.co/datasets/XingjianLi/tomatotest](https://huggingface.co/datasets/XingjianLi/tomatotest)
 - **Características**:
   - 21.367 imagens capturadas em ambiente real de campo
   - Resolução original: 2448 × 2048 pixels
@@ -156,16 +157,37 @@ pip install torch torchvision opencv-python matplotlib numpy pandas
 - Otimização sistemática de hiperparâmetros
 - Validação em outros datasets agrícolas
 
+## 🏆 Créditos e Referências
+
+### Dataset
+Este projeto utiliza o dataset `tomatotest` criado e disponibilizado por:
+- **Autores**: Weilong He, Xingjian Li, Zhenghua Zhang, Yuxi Chen, Jianbo Zhang, Dilip R. Panthee, Inga Meadows, Lirong Xiang
+- **Disponível em**: [https://huggingface.co/datasets/XingjianLi/tomatotest](https://huggingface.co/datasets/XingjianLi/tomatotest)
+
+### Artigo Base
+O trabalho é baseado no artigo científico:
+**"High-Throughput Robotic Phenotyping for Quantifying Tomato Disease Severity Enabled by Synthetic Data and Domain-Adaptive Semantic Segmentation"**
+
+**Autores**: 
+- Weilong He¹'²
+- Xingjian Li²'³ 
+- Zhenghua Zhang¹'²
+- Yuxi Chen³
+- Jianbo Zhang⁴
+- Dilip R. Panthee
+- Inga Meadows
+- Lirong Xiang¹'²
+
 ## 👥 Contribuições
 
 Este projeto foi desenvolvido como parte da pesquisa de mestrado em Ciência da Computação na Universidade Federal de Uberlândia, sob orientação acadêmica específica para a disciplina de Mineração de Dados.
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para detalhes.
+Este projeto está licenciado sob a Licença Apache-2.0 - veja o arquivo LICENSE para detalhes.
 
 ---
 
-**Contato**: henriquemoreiraa@gmail.com
-**Instituição**: Universidade Federal de Uberlândia
+**Contato**: henriquemoreiraa@gmail.com  
+**Instituição**: Universidade Federal de Uberlândia  
 **Programa**: Mestrado em Ciência da Computação
